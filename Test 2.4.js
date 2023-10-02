@@ -1,10 +1,10 @@
 dothings = (data)  => {
     let input = data.toString()
-    let arr = []
+    let rar = []
     for (let i = input.length - 2; i > -1; i--){
-        arr.push(parseInt(input[i]))
+        rar.push(parseInt(input[i]))
     }
-    return arr
+    return rar
 };
 let cnt, res;
 process.stdin.on('data', data => {
